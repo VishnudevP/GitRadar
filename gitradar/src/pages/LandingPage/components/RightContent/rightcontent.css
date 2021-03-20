@@ -16,7 +16,7 @@
   font-family: SF Pro Display;
   font-style: normal;
   font-weight: 800;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 19px;
 
   color: #6110c9;
@@ -27,7 +27,7 @@
   font-family: SF Pro Display;
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 43px;
 
   color: #29282c;
@@ -37,20 +37,20 @@
   font-family: SF Pro Text;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 28px;
   letter-spacing: 0.02em;
   color: #29282c;
 
   margin-top: 20px;
   width: 74%;
-  margin-left: 180px;
+  margin-left: auto;
 }
 
 .rightcontent__btn {
   padding: 1.5rem 4rem;
   margin-top: 30px;
-  font-size: 16px;
+  font-size: 15px;
   font-family: "Inter", sans-serif;
   font-weight: 800;
   background: #6c09ea;
@@ -64,7 +64,59 @@
 }
 
 .rightplaceholder__img {
-  margin-top: 35px;
+  margin-top: 85px;
   margin-left: 80px;
-  width: 84%;
+  width: 88%;
+}
+
+@media only screen and (min-width: 1500px) and (max-width: 2000px) {
+  .rightcontent__header {
+    font-size: 18px;
+  }
+
+  .rightcontent__main {
+    font-size: 38px;
+  }
+  .rightcontent__sub {
+    font-size: 24px;
+    margin-left: auto;
+  }
+  .rightcontent__btn {
+    padding: 1.8rem 4.5rem;
+    font-size: 18px;
+  }
+
+  .rightplaceholder__img {
+    width: 75%;
+    margin-top: 40px;
+    margin-left: 120px;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1100px) {
+  .rightcontent__header {
+    font-size: 12px;
+  }
+
+  .rightcontent__main {
+    font-size: 24px;
+  }
+  .rightcontent__sub {
+    font-size: 14px;
+    margin-top: 12px;
+  }
+  .rightcontent__btn {
+    padding: 1.2rem 3rem;
+    font-size: 12px;
+    margin-top: 12px;
+  }
+
+  .rightplaceholder__img {
+    width: 80%;
+    margin-top: 40px;
+  }
+
+  .rightcontent__right {
+    margin-top: 10px;
+  }
 }
