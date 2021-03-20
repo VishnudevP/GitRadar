@@ -108,7 +108,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 899px) {
+@media only screen and (min-width: 600px) and (max-width: 900px) {
   .navbar__logo {
     margin-right: 20px;
     width: 9%;
@@ -134,14 +134,17 @@ a {
   }
 }
 
-@media only screen and (min-width: 300px) and (max-width: 599px) {
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .navbar {
+    height: 10vh;
+  }
   .navbar__logo {
-    margin-right: 20px;
+    margin-right: 10px;
     width: 9%;
   }
 
   .navbar__item {
-    margin-left: 20px;
+    margin-left: 2px;
     font-size: 0.8rem;
     font-family: "Inter", sans-serif;
     font-weight: 600;
@@ -159,18 +162,18 @@ a {
 
   .btn__log {
     font-size: 0.5rem;
-    margin-left: -10px;
+    margin-left: -15px;
   }
 
   .navbar__right {
-    margin-left: 70px;
+    margin-left: 20px;
     display: flex;
     align-items: center;
     flex: 1;
   }
 
   .navbar__left {
-    margin-left: 35px;
+    margin-left: 15px;
     display: flex;
     align-items: center;
     flex: 3;
