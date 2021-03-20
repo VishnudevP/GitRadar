@@ -1,0 +1,70 @@
+.rightcontent {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+}
+
+.rightcontent__right {
+  margin-left: 70px;
+  margin-right: 90px;
+  width: 50%;
+  margin-top: 100px;
+  text-align: right;
+}
+
+.rightcontent__header {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #6110c9;
+  margin-bottom: 20px;
+}
+
+.rightcontent__main {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+
+  color: #29282c;
+}
+
+.rightcontent__sub {
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #29282c;
+
+  margin-top: 20px;
+  width: 74%;
+  margin-left: 180px;
+}
+
+.rightcontent__btn {
+  padding: 1.5rem 4rem;
+  margin-top: 30px;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  background: #6c09ea;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+}
+
+.rightcontent__left {
+  width: 50%;
+}
+
+.rightplaceholder__img {
+  margin-top: 35px;
+  margin-left: 80px;
+  width: 84%;
+}
