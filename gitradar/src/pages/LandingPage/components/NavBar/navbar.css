@@ -57,7 +57,7 @@ a {
   font-family: "Inter", sans-serif;
   font-weight: 600;
   color: #ffff;
-  background-color: #001c36;
   border: none;
-  border-radius: 4px;
+  background: linear-gradient(180deg, #6c09ea 0%, #570bb8 100%);
+  border-radius: 10px;
 }
